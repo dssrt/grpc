@@ -82,7 +82,7 @@ def encode(s):
     if isinstance(s, bytes):
         return s
     else:
-        return s.encode('ascii')
+        return s.encode('utf8')
 
 
 def decode(b):
